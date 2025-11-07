@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Verde Extensa</title>
+    
+    <style>
+        /* Variáveis CSS para facilitar a mudança de cores */
+        :root {
+            --cor-principal: #4CAF50; /* Verde Principal (Tom de sucesso/natureza) */
+            --cor-secundaria: #81C784; /* Verde Claro */
+            --cor-fundo: #E8F5E9; /* Fundo muito claro */
+            --cor-texto: #1B5E20; /* Verde Escuro para texto */
+            --cor-branco: white;
+        }
+
+        /* Reset Básico e Fundo */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho/Barra de Navegação */
+        header {
+            background-color: var(--cor-principal);
+            color: var(--cor-branco);
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        nav a {
+            color: var(--cor-branco);
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--cor-secundaria);
+        }
+
+        /* Seção Principal */
+        main {
+            padding: 40px 50px;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: var(--cor-branco);
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        main h2 {
+            color: var(--cor-principal);
+            border-bottom: 2px solid var(--cor-secundaria);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        /* Destaque do Conteúdo Central */
+        .destaque {
+            background-color: var(--cor-secundaria);
+            color: var(--cor-texto);
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: var(--cor-principal);
+            color: var(--cor-branco);
+            text-align: center;
+            padding: 15px;
+            position: fixed; /* Fixa o rodapé na parte inferior */
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilo para lista no conteúdo */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li::before {
+            content: "🌿"; /* Emoji de folha como marcador */
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Página Verde Extensa</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="inicio">
+            <h2>Bem-vindo à Seção Verde!</h2>
+            <div class="destaque">
+                Qualquer Coisa
+    </body>
+</html>
